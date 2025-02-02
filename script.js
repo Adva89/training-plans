@@ -1,4 +1,4 @@
-const API_URL = 'https://script.google.com/macros/s/AKfycbz-TbQNWBwwTFxTljcRM48vyDUF52huzrh_5UwgXyQceP6aCgsW3zkLbS_Hcm3KCx9f/exec';
+const API_URL = 'https://script.google.com/macros/s/AKfycbyFqpszsdwwnQ4Sn9ygg-DeWcSTbNkSx2h652am0yhrnGLjS5P_fHwZqe8bdtouy8mY/exec';
 
 async function loadData(sheetName) {
   const response = await fetch(`${API_URL}?sheet=${sheetName}`);
